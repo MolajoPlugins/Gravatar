@@ -1,0 +1,41 @@
+{
+    "name": "molajoplugins/gravatar",
+    "description": "Gravatar Plugin for use with the Molajo Plugin Framework",
+    "version": "1.0.0",
+    "type": "molajo-plugin",
+    "keywords": [
+        "plugin",
+        "molajo",
+        "gravatar"
+    ],
+    "homepage": "http://github.com/MolajoPlugins/Gravatar",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amy Stephen",
+            "email": "AmyStephen@molajo.org",
+            "homepage": "http://AmyStephen.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/MolajoPlugins/Gravatar/issues",
+        "forum": "https://groups.google.com/forum/#!forum/molajo",
+        "irc": "irc://irc.freenode.org/molajo",
+        "source": "https://github.com/MolajoPlugins/Gravatar"
+    },
+    "require": {
+        "molajo/plugins": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Molajo\\Plugins\\Gravatar\\": "/"
+        }
+    },
+
+    "archive": {
+        "exclude": ["/.dev"]
+    },
+
+    "minimum-stability": "dev"
+}
